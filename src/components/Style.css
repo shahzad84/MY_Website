@@ -1,0 +1,11 @@
+.carousel-image {
+    width: 100%; /* Makes the image take up the full width of its container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    max-height: 450px; /* Limits height on larger screens */
+}
+@media (max-width: 768px) {
+    .carousel-image {
+        max-height: 300px; /* Reduce height on smaller screens */
+    }
+}
