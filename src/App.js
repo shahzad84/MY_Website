@@ -8,6 +8,8 @@ import VideoPage from "./components/VideoPage";
 import ShopPage from "./components/ShopPage";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
+import Signup from "./components/Signup";
+import Login from "./components/Login";
 function App() {
   return (
     <div className="App">
@@ -26,7 +28,9 @@ function App() {
         <ShopPage/>
       </div> */}
       {/* <div className="spacing"><AboutUs/></div> */}
-      <div ><ContactUs/></div>
+      {/* <div ><ContactUs/></div> */}
+      {/* <div><Signup/></div> */}
+      <div><Login/></div>
       <div className="spacing"><Footer/></div>
       
     </div>

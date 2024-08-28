@@ -75,3 +75,111 @@
     transform: scale(1.1); /* Slightly enlarge icons on hover */
   }
   
+
+
+  /* signup */
+
+  .signup-background {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef); /* Gradient background */
+    padding: 2rem;
+  }
+  
+  .signup-card {
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  .signup-card .card-body {
+    padding: 2rem;
+  }
+  
+  .signup-card .form-control {
+    border-radius: 8px;
+  }
+  
+  .signup-card .btn-primary {
+    border-radius: 8px;
+    padding: 0.75rem 1.25rem;
+  }
+  
+  .google-login-button {
+    border-radius: 8px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  .text-center {
+    margin-top: 1rem;
+  }
+
+
+
+  /* login.css  */
+
+
+  .login-background {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef); /* Gradient background */
+    padding: 2rem;
+  }
+  
+  .login-card {
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  .login-card .card-body {
+    padding: 2rem;
+  }
+  
+  .login-card .form-control {
+    border-radius: 8px;
+  }
+  
+  .login-card .btn-primary {
+    border-radius: 8px;
+    padding: 0.75rem 1.25rem;
+  }
+  
+  .google-login-button {
+    border-radius: 8px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  .text-center {
+    margin-top: 1rem;
+  }
+
+
+  /* navbar.css  */
+
+  .navbar-nav {
+    margin-bottom: 0; /* Remove bottom margin from nav items */
+  }
+  
+  .btn {
+    margin-bottom: 0; /* Remove default bottom margin from buttons */
+  }
+  
+  @media (max-width: 576px) {
+    .btn {
+      width: 100%; /* Make buttons full-width on small screens */
+      margin-bottom: 0.5rem; /* Space out buttons on small screens */
+    }
+  }
