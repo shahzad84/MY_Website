@@ -1,7 +1,7 @@
 import React from 'react'
-import image1 from "../utils/image1.jpg"
-import image2 from "../utils/image2.jpg"
-import image3 from "../utils/image3.jpg"
+import img1 from "../utils/img1.jpg"
+import img2 from "../utils/img2.jpg"
+import img3 from "../utils/img3.jpg"
 import "./Style.css"
 const Carousel = () => {
   return (
@@ -14,21 +14,21 @@ const Carousel = () => {
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src={image1} class="d-block w-100 carousel-image" alt="image1"/>
+            <img src={img1} class="d-block w-100 carousel-image" alt="img1"/>
             <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
             </div>
             </div>
             <div class="carousel-item">
-            <img src={image2}class="d-block w-100 carousel-image" alt="image2"/>
+            <img src={img2}class="d-block w-100 carousel-image" alt="img2"/>
             <div class="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
             </div>
             </div>
             <div class="carousel-item">
-            <img src={image1} class="d-block w-100 carousel-image" alt="image1"/>
+            <img src={img3} class="d-block w-100 carousel-image" alt="img3"/>
             <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>

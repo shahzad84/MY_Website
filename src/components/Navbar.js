@@ -31,7 +31,7 @@ const Navbar = () => {
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  Link
+                  About
                 </a>
               </li>
               <li class="nav-item dropdown">
@@ -65,11 +65,11 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <a class="nav-link disabled" aria-disabled="true">
                   Disabled
                 </a>
-              </li>
+              </li> */}
             </ul>
             <form class="d-flex" role="search">
               <input
