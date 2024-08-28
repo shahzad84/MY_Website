@@ -6,6 +6,8 @@ import Small_cards from "./components/Small_cards";
 import Footer from "./components/Footer";
 import VideoPage from "./components/VideoPage";
 import ShopPage from "./components/ShopPage";
+import AboutUs from "./components/AboutUs";
+import ContactUs from "./components/ContactUs";
 function App() {
   return (
     <div className="App">
@@ -20,9 +22,11 @@ function App() {
       {/* <div className="spacing">
         <VideoPage/>
       </div> */}
-      <div className="spacing">
+      {/* <div className="spacing">
         <ShopPage/>
-      </div>
+      </div> */}
+      {/* <div className="spacing"><AboutUs/></div> */}
+      <div ><ContactUs/></div>
       <div className="spacing"><Footer/></div>
       
     </div>
