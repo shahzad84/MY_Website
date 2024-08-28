@@ -1,33 +1,44 @@
-footer {
-    font-size: 1rem;
-    background-color: #20232a; /* Slightly lighter dark background */
-  }
-  
-  footer h5 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-  }
-  
-  footer p, footer a {
-    line-height: 1.6;
-    font-size: 0.95rem; /* Slightly larger font size for better readability */
-  }
-  
-  footer a {
-    text-decoration: none;
-    transition: color 0.3s ease;
-    color: #adb5bd; /* Lighter link color for better contrast */
-  }
-  
-  footer a:hover {
-    color: #f8f9fa; /* Lighten link color on hover */
-  }
-  
-  footer hr {
-    border-top: 1px solid #495057; /* Light border for divider */
-  }
-  
-  footer .font-weight-bold {
-    font-weight: 600;
-  }
-  
+.footer {
+  background-color: #282c34; /* Dark background */
+  font-size: 0.9rem; /* Slightly smaller font size for a modern look */
+}
+
+.footer-title {
+  font-size: 1.25rem; /* Slightly larger font size for headings */
+  font-weight: 700; /* Bold headings */
+  margin-bottom: 1rem; /* Spacing between title and content */
+  color: #f8f9fa; /* Light color for titles */
+}
+
+.footer-text, .footer-link {
+  color: #c1c1c1; /* Lighter color for text */
+  line-height: 1.6; /* Spacing between lines for readability */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.footer-link {
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-link:hover {
+  color: #f8f9fa; /* Light color on hover */
+}
+
+.footer-divider {
+  border-top: 1px solid #495057; /* Subtle divider line */
+}
+
+.footer-icon {
+  color: #c1c1c1; /* Icon color */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  margin: 0 10px; /* Space between icons */
+}
+
+.footer-icon:hover {
+  color: #007bff; /* Color change on hover */
+  transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+
+.footer-copy {
+  color: #c1c1c1; /* Light color for copyright text */
+}

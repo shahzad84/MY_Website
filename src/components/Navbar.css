@@ -1,50 +1,89 @@
-/* Ensures navbar is responsive and buttons are full-width on smaller screens */
+/* Navbar.css */
+
+/* Navbar Styles */
+.navbar {
+  background: linear-gradient(45deg, #343a40, #000); /* Gradient background */
+  border-bottom: 1px solid #444; /* Subtle border at the bottom */
+  transition: background 0.3s ease; /* Smooth transition for background */
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #00bcd4; /* Accent color on hover */
+}
+
+.nav-link {
+  color: #ccc; /* Light gray color for nav links */
+  transition: color 0.3s ease;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #fff; /* White color for active and hover states */
+  font-weight: 500;
+}
+
+.navbar-toggler {
+  border-color: #00bcd4; /* Toggler icon border color */
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3e%3cpath stroke="%2300bcd4" stroke-width="2" d="M5 7h20M5 15h20M5 23h20" /%3e%3c/svg%3e'); /* Custom SVG for toggler icon */
+}
+
+.btn {
+  border-radius: 5px; /* Rounded corners */
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+  background: transparent;
+  background-image: linear-gradient(45deg, transparent, transparent 50%, #fff 50%, #fff); /* Modern gradient */
+  background-size: 100% 200%;
+  background-position: 0 100%;
+}
+
+.btn-outline-light:hover {
+  color: #000;
+  border-color: #000;
+  background-position: 0 0; /* Slide effect on hover */
+}
+
+.btn-light {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  background-image: linear-gradient(45deg, #fff, #f0f0f0); /* Gradient background */
+}
+
+.btn-light:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  background-image: linear-gradient(45deg, #000, #333); /* Darker gradient on hover */
+}
+
 @media (max-width: 576px) {
-    .navbar-nav {
-      text-align: center; /* Centers nav items on small screens */
-    }
-  
-    .navbar-toggler {
-      margin-right: 1rem; /* Add margin for better alignment */
-    }
-  
-    .btn {
-      width: 100%; /* Make buttons full-width on small screens */
-      margin-bottom: 0.5rem; /* Space out buttons on small screens */
-    }
-  }
-  
   .navbar-nav {
-    margin-bottom: 0; /* Remove bottom margin from nav items */
+    text-align: center;
+    margin-top: 0.5rem; /* Spacing for mobile view */
   }
-  
+
+  .navbar-toggler {
+    margin-right: 0;
+    border-color: #00bcd4; /* Ensuring border color is consistent */
+  }
+
   .btn {
-    margin-bottom: 0; /* Remove default bottom margin from buttons */
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    width: 100%;
+    margin-bottom: 0.5rem;
   }
-  
-  /* Hover effects for Login and Sign Up buttons */
-  .btn-outline-light {
-    color: #fff;
-    border-color: #fff;
-    background-color: transparent; /* Transparent background for default state */
-  }
-  
-  .btn-outline-light:hover {
-    color: #000;
-    border-color: #000;
-    background-color: #fff; /* White background on hover */
-  }
-  
-  .btn-light {
-    color: #000;
-    background-color: #fff;
-    border: 1px solid #000; /* Black border for the light button */
-  }
-  
-  .btn-light:hover {
-    color: #fff;
-    background-color: #000; /* Black background on hover */
-    border-color: #000;
-  }
-  
+}
