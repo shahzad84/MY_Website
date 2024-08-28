@@ -1,5 +1,6 @@
 import React from "react";
 import VideoCard from "./Videocard";
+import "./VideoPage.css"; // Import the new CSS file
 
 const VideoPage = () => {
   const videos = [
@@ -26,7 +27,7 @@ const VideoPage = () => {
   ];
 
   return (
-    <div className="container mt-4">
+    <div className="video-page container mt-4"> {/* Added a unique class */}
       <h1 className="mb-4">My Video Collection</h1>
       <div className="row">
         {videos.map((video, index) => (

@@ -1,0 +1,97 @@
+/* Login.css */
+
+.login-background {
+  background: url('../utils/img1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.login-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  transform: scale(0.95);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.login-card:hover {
+  transform: scale(1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa; /* Slightly different background on hover */
+}
+
+.login-card .card-body {
+  padding: 2rem;
+  animation: slideInUp 0.7s ease-out;
+}
+
+.login-card .form-control {
+  border-radius: 8px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-card .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.login-card .btn-primary {
+  border-radius: 8px;
+  padding: 0.75rem 1.25rem;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-card .btn-primary:hover {
+  background-color: #0056b3;
+  box-shadow: 0 5px 15px rgba(0, 86, 179, 0.3);
+}
+
+.google-login-button {
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.google-login-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+      transform: translateY(20px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.text-center {
+  margin-top: 1rem;
+  animation: fadeIn 1.5s ease-in-out;
+}

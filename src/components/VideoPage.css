@@ -1,0 +1,73 @@
+/* Style specific to the VideoPage component */
+.video-page {
+  animation: fadeIn 1s ease-out; /* Fade in effect for the entire page */
+}
+
+.video-page h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.video-page .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0; /* Start as invisible for fade-in effect */
+    animation: fadeInUp 1s ease-out forwards; /* Fade in effect for cards */
+}
+
+.video-page .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.video-page .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.video-page .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.video-page .embed-responsive {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-page .embed-responsive-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.video-page .col-md-6 {
+    margin-bottom: 2rem;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

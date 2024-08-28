@@ -2,7 +2,7 @@ import React from 'react';
 import { GoogleLogin } from 'react-google-login';
 import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './Signup.css'; // Ensure this path is correct
 
 const clientId = 'YOUR_GOOGLE_CLIENT_ID'; // Replace with your Google Client ID
 

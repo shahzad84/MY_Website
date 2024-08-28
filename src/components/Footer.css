@@ -1,0 +1,33 @@
+footer {
+    font-size: 1rem;
+    background-color: #20232a; /* Slightly lighter dark background */
+  }
+  
+  footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  footer p, footer a {
+    line-height: 1.6;
+    font-size: 0.95rem; /* Slightly larger font size for better readability */
+  }
+  
+  footer a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #adb5bd; /* Lighter link color for better contrast */
+  }
+  
+  footer a:hover {
+    color: #f8f9fa; /* Lighten link color on hover */
+  }
+  
+  footer hr {
+    border-top: 1px solid #495057; /* Light border for divider */
+  }
+  
+  footer .font-weight-bold {
+    font-weight: 600;
+  }
+  

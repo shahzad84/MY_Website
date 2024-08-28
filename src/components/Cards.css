@@ -1,0 +1,70 @@
+/* Ensure box-sizing is set correctly */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Ensure container and row are responsive */
+.container {
+  padding: 0 15px; /* Add horizontal padding to container */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Ensure card does not cause overflow */
+.custom-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 0.5rem; /* Optional: Add border radius for rounded corners */
+  overflow: hidden; /* Ensure that child elements don't overflow */
+  max-width: 100%; /* Prevent cards from exceeding container width */
+}
+
+/* Ensure image scales correctly */
+.custom-card img {
+  width: 100%; /* Ensure image takes full width of the card */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Increase the shadow intensity and add hover animations */
+.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Card title and text styles */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Additional adjustments for small devices */
+@media (max-width: 576px) {
+  .container {
+    padding: 0; /* Remove horizontal padding on small devices */
+  }
+
+  .custom-card {
+    margin-bottom: 1rem; /* Add spacing between cards */
+  }
+}

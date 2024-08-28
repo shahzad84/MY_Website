@@ -1,52 +1,36 @@
 import React from "react";
 import image1 from "../utils/image1.jpg";
 import image2 from "../utils/image2.jpg";
+import "./Small_cards.css"; // Make sure to create this stylesheet for additional styling
+
 const Small_cards = () => {
   return (
-    <div className="container">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src={image1} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+    <div className="container py-5">
+      <div className="row">
+        <div className="col-md-6 mb-4">
+          <div className="card h-100 d-flex flex-row shadow-lg border-0 hover-card">
+            <img src={image1} className="card-img-left" alt="..." />
+            <div className="card-body d-flex flex-column justify-content-center">
+              <h5 className="card-title">Innovative Solutions</h5>
+              <p className="card-text">
+                Discover cutting-edge solutions designed to empower your business and drive success.
               </p>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
+              <a href="#" className="btn btn-primary mt-3 w-50 align-self-start">
+                Learn More
               </a>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src={image2} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                card with supporting text below as a natural lead-in to
-                additional contencard with supporting text below as a natural.
+        <div className="col-md-6 mb-4">
+          <div className="card h-100 d-flex flex-row shadow-lg border-0 hover-card">
+            <img src={image2} className="card-img-left" alt="..." />
+            <div className="card-body d-flex flex-column justify-content-center">
+              <h5 className="card-title">Future-Ready Tech</h5>
+              <p className="card-text">
+                Stay ahead of the curve with technology designed to scale with your business.
               </p>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src={image1} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
-              </p>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
+              <a href="#" className="btn btn-primary mt-3 w-50 align-self-start">
+                Explore
               </a>
             </div>
           </div>

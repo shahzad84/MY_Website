@@ -1,0 +1,69 @@
+/* Home.css */
+
+.home-container {
+    overflow: hidden; /* Ensure animations don't spill over the container */
+  }
+  
+  /* Carousel animation */
+  .carousel {
+    animation: slideIn 1s ease-out; /* Slide in effect */
+  }
+  
+  /* Small_cards animation */
+  .small-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    animation: fadeInUp 1s ease-out; /* Fade in effect */
+  }
+  
+  .small-cards > * {
+    margin: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .small-cards > *:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Cards animation */
+  .cards {
+    margin-top: 40px;
+    animation: fadeInUp 1s ease-out; /* Fade in effect */
+  }
+  
+  .cards > * {
+    margin: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cards > *:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Keyframes for animations */
+  @keyframes slideIn {
+    0% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

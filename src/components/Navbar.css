@@ -1,0 +1,50 @@
+/* Ensures navbar is responsive and buttons are full-width on smaller screens */
+@media (max-width: 576px) {
+    .navbar-nav {
+      text-align: center; /* Centers nav items on small screens */
+    }
+  
+    .navbar-toggler {
+      margin-right: 1rem; /* Add margin for better alignment */
+    }
+  
+    .btn {
+      width: 100%; /* Make buttons full-width on small screens */
+      margin-bottom: 0.5rem; /* Space out buttons on small screens */
+    }
+  }
+  
+  .navbar-nav {
+    margin-bottom: 0; /* Remove bottom margin from nav items */
+  }
+  
+  .btn {
+    margin-bottom: 0; /* Remove default bottom margin from buttons */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  /* Hover effects for Login and Sign Up buttons */
+  .btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent; /* Transparent background for default state */
+  }
+  
+  .btn-outline-light:hover {
+    color: #000;
+    border-color: #000;
+    background-color: #fff; /* White background on hover */
+  }
+  
+  .btn-light {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000; /* Black border for the light button */
+  }
+  
+  .btn-light:hover {
+    color: #fff;
+    background-color: #000; /* Black background on hover */
+    border-color: #000;
+  }
+  

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Style.css"
+import "./AboutUs.css"
 import about1 from "../utils/about1.jpg"
 import about2 from "../utils/about2.jpg"
 import about from "../utils/about.jpg"
@@ -93,7 +93,7 @@ const AboutUs = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="contact bg-dark text-white text-center py-5">
+      {/* <section className="contact bg-dark text-white text-center py-5">
         <div className="container">
             <h2>Get in Touch</h2>
             <p>
@@ -104,7 +104,7 @@ const AboutUs = () => {
             Contact Us
             </a>
         </div>
-        </section>
+        </section> */}
 
     </div>
   );

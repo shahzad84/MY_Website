@@ -1,0 +1,63 @@
+/* ShopCard.css */
+
+.shop-card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0; /* Start as invisible for fade-in effect */
+  animation: fadeInUp 1s ease-out forwards; /* Fade-in effect */
+}
+
+.shop-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.shop-card-img {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.shop-card:hover .shop-card-img {
+  transform: scale(1.05);
+}
+
+.shop-card-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: #333;
+}
+
+.shop-card-text {
+  color: #555;
+}
+
+.shop-card-price {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.shop-card-button {
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  border: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shop-card-button:hover {
+  background-color: #004a99;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Keyframes for animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

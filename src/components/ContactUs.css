@@ -1,0 +1,43 @@
+.contact-us {
+    background-color: #f8f9fa; /* Light gray background */
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-us h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #343a40;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-image {
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-button {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-media-icons a {
+    color: #343a40;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-media-icons a:hover {
+    color: #007bff;
+    transform: scale(1.1);
+  }
+  
