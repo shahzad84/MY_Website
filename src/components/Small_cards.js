@@ -15,8 +15,8 @@ const Small_cards = () => {
               <p className="card-text">
                 Discover cutting-edge solutions designed to empower your business and drive success.
               </p>
-              <a href="#" className="btn btn-primary mt-3 w-50 align-self-start">
-                Learn More
+              <a href="/about" className="btn btn-primary mt-3 w-50 align-self-start">
+               Explore
               </a>
             </div>
           </div>
@@ -29,7 +29,7 @@ const Small_cards = () => {
               <p className="card-text">
                 Stay ahead of the curve with technology designed to scale with your business.
               </p>
-              <a href="#" className="btn btn-primary mt-3 w-50 align-self-start">
+              <a href="/about" className="btn btn-primary mt-3 w-50 align-self-start">
                 Explore
               </a>
             </div>

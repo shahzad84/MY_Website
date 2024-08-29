@@ -32,7 +32,7 @@ const Login = () => {
                   Login
                 </Button>
               </Form>
-              <div className="text-center my-4">
+              {/* <div className="text-center my-4">
                 <GoogleLogin
                   clientId={clientId}
                   buttonText="Login with Google"
@@ -41,7 +41,7 @@ const Login = () => {
                   cookiePolicy={'single_host_origin'}
                   className="google-login-button"
                 />
-              </div>
+              </div> */}
             </Card.Body>
           </Card>
         </Col>

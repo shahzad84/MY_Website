@@ -1,12 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaLinkedinIn  , FaGithub} from 'react-icons/fa';
 import img3 from '../utils/img3.jpg'; // Update with your image path
 import './ContactUs.css'; // New CSS file for styling
 
 const ContactUs = () => {
   // Replace with your Google Calendar booking link
-  const calendarLink = 'https://calendar.google.com/calendar/u/0/r/eventedit?text=Book+an+Appointment';
+  const calendarLink = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2HgzDNIBl8MrJALZoqI83S8lRglFd-bykC71wlc6s3Ppw3yDnASzltyvthUAB1sL5pwUE6evAV?gv=true';
 
   return (
     <div className="contact-us container text-center py-5">
@@ -28,13 +28,13 @@ const ContactUs = () => {
 
       {/* Social Media Icons */}
       <div className="social-media-icons">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="mx-2">
-          <FaFacebookF size={30} />
+        <a href="https://github.com/shahzad84" target="_blank" rel="noopener noreferrer" className="mx-2">
+          <FaGithub size={30} />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="mx-2">
+        <a href="https://twitter.com/_shahzad_8" target="_blank" rel="noopener noreferrer" className="mx-2">
           <FaTwitter size={30} />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="mx-2">
+        <a href="https://www.linkedin.com/in/shahzad84/" target="_blank" rel="noopener noreferrer" className="mx-2">
           <FaLinkedinIn size={30} />
         </a>
       </div>

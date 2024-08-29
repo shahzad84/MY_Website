@@ -36,7 +36,7 @@ const Signup = () => {
                   Sign Up
                 </Button>
               </Form>
-              <div className="text-center my-4">
+              {/* <div className="text-center my-4">
                 <GoogleLogin
                   clientId={clientId}
                   buttonText="Sign Up with Google"
@@ -45,7 +45,7 @@ const Signup = () => {
                   cookiePolicy={'single_host_origin'}
                   className="google-login-button"
                 />
-              </div>
+              </div> */}
             </Card.Body>
           </Card>
         </Col>

@@ -54,8 +54,7 @@ const AboutUs = () => {
             <div className="col-md-6">
               <h2>Our Mission</h2>
               <p>
-                We aim to provide the best services and products to our
-                customers, with a focus on quality, innovation, and excellence.
+              Our mission is to deliver exceptional software solutions that empower businesses to thrive in the digital age. We specialize in creating high-quality websites, mobile applications, and cutting-edge AI software tailored to meet the unique needs of our clients. Our commitment to innovation, excellence, and customer satisfaction drives us to consistently exceed expectations. Whether it's building a robust online presence, developing user-friendly mobile apps, or leveraging AI to streamline business processes, we are dedicated to helping our clients succeed in a rapidly evolving technological landscape.
               </p>
             </div>
             <div className="col-md-6">
@@ -83,9 +82,7 @@ const AboutUs = () => {
             <div className="col-md-6">
               <h2>Our History</h2>
               <p>
-                Founded in 2020, our company has grown from a small startup to a
-                leading industry player. Our journey has been fueled by our
-                passion for innovation and customer satisfaction.
+              I embarked on my journey as an independent developer with a clear mission: to provide high-quality software solutions tailored to client needs. What began as a personal passion has quickly grown into a focused effort to deliver exceptional websites, mobile apps, and AI software. Despite being at the beginning of my professional path, I've already had the opportunity to work with clients who value innovation and excellence. My commitment to turning ideas into impactful digital experiences is the driving force behind every project I undertake.
               </p>
             </div>
           </div>

@@ -15,21 +15,21 @@ const Carousel = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={img1} className="d-block w-100 carousel-image" alt="Slide 1" />
+            <img src={img2} className="d-block w-100 carousel-image" alt="Slide 1" />
             <div className="carousel-caption d-md-block">
               <h5 className="animated fadeInDown">Discover Your Potential</h5>
               <p className="animated fadeInUp">Unleash creativity and innovation with our tools.</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={img2} className="d-block w-100 carousel-image" alt="Slide 2" />
+            <img src={img3} className="d-block w-100 carousel-image" alt="Slide 2" />
             <div className="carousel-caption d-md-block">
               <h5 className="animated fadeInDown">Empower Your Journey</h5>
               <p className="animated fadeInUp">Join us and transform your ideas into reality.</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={img3} className="d-block w-100 carousel-image" alt="Slide 3" />
+            <img src={img1} className="d-block w-100 carousel-image" alt="Slide 3" />
             <div className="carousel-caption d-md-block">
               <h5 className="animated fadeInDown">Innovation at Your Fingertips</h5>
               <p className="animated fadeInUp">Explore the future of technology with us.</p>
