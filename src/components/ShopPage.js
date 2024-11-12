@@ -2,52 +2,52 @@ import React from 'react';
 import ShopCard from './ShopCard';
 import image1 from '../utils/image1.jpg';
 import image2 from '../utils/image2.jpg';
-import image3 from '../utils/image3.jpg';
+// import image3 from '../utils/image3.jpg';
 import './ShopPage.css'; // Add a separate CSS file for styling
 
 const ShopPage = () => {
   const products = [
     {
       image: image1,
-      title: 'Product 1',
-      description: 'This is a great product.',
-      price: 29.99,
-      link: '#',
+      title: 'YouTube Clone',
+      description: 'This is a News website.',
+      // price: 29.99,
+      link: 'https://grand-babka-c9e878.netlify.app/',
     },
     {
       image: image2,
-      title: 'Product 2',
-      description: 'This is another great product.',
-      price: 49.99,
-      link: '#',
-    },
-    {
-      image: image3,
-      title: 'Product 3',
-      description: 'This product is also great.',
-      price: 39.99,
-      link: '#',
+      title: 'Buy Homes',
+      description: 'Here you buy your dream home',
+      // price: 49.99,
+      link: 'https://verdant-licorice-777cb8.netlify.app/',
     },
     {
       image: image1,
-      title: 'Product 1',
-      description: 'This is a great product.',
-      price: 29.99,
-      link: '#',
+      title: 'YouTube Clone',
+      description: 'This is a News website.',
+      // price: 29.99,
+      link: 'https://grand-babka-c9e878.netlify.app/',
     },
     {
       image: image2,
-      title: 'Product 2',
-      description: 'This is another great product.',
-      price: 49.99,
-      link: '#',
+      title: 'Buy Homes',
+      description: 'Here you buy your dream home',
+      // price: 49.99,
+      link: 'https://verdant-licorice-777cb8.netlify.app/',
     },
     {
-      image: image3,
-      title: 'Product 3',
-      description: 'This product is also great.',
-      price: 39.99,
-      link: '#',
+      image: image1,
+      title: 'YouTube Clone',
+      description: 'This is a News website.',
+      // price: 29.99,
+      link: 'https://grand-babka-c9e878.netlify.app/',
+    },
+    {
+      image: image2,
+      title: 'Buy Homes',
+      description: 'Here you buy your dream home',
+      // price: 49.99,
+      link: 'https://verdant-licorice-777cb8.netlify.app/',
     },
   ];
 
